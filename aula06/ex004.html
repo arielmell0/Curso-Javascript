@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+
+    <title>Meu primeiro programa...</title>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, World!</h1>
+    </header>
+
+    <section>
+        <p>Me livrei da maldição.</p>
+    </section>
+
+    <script>
+        //nome.Length mostra quantos caracteres possui a string
+        //nome.toUpperCase coloca a string toda em maiúsculo
+        //nome.toLowerCase coloca a string toda em minúsculo
+
+        var nome = window.prompt('Digite seu nome: ')
+        
+        document.write(`Olá ${nome}. Seu nome possui ${nome.length} letras.</p>`)
+        document.write(`${nome}, Seu nome em maiúsculo é ${nome.toUpperCase()} letras.</p>`)
+        document.write(`${nome}, Seu nome em minúsculo é ${nome.toLowerCase()} letras.</p>`)
+
+        //formatação de números
+        //n1 = 43.4 
+        //n1.toFixed(numero de casas desejadas)
+        //n1.toFixed(4) 
+        //n1 será 43.4000
+    </script>
+
+</body>
+</html>
