@@ -21,6 +21,6 @@ function exibirAsteriscos(linhas){
         for(i = 0; i < linha; i++){
             padrao += '*';
         }
-        console.log(padrao);
+        console.log(padrao, i);
     }
 }
