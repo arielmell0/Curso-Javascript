@@ -11,8 +11,10 @@ function exibirNumerosPrimos(limite){
                 ePrimo = false;
             }
         }
+
         if(ePrimo == true){
             console.log(numero);
         }
+        
     }
 }
