@@ -24,9 +24,11 @@ for (var i = 0; i < pacientes.length; i++) {
     if (peso < 0 || peso > 1000) {
         tdImc.textContent = 'Peso inválido!'
         PesoValida = false
+        paciente.classList.add("paciente-invalido")
     } else if (altura > 3 || altura < 0) {
         tdImc.textContent = 'Altura inválida!'
         alturaValida = false
+        paciente.classList.add("paciente-invalido")
     } else {
         tdImc.textContent = calculoImc.toFixed(2)
     }
