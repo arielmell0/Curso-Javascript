@@ -145,3 +145,13 @@ button[disabled=disabled], button:disabled {
 	opacity: 0;
 	transition: 0.5s;
 }
+
+#filtrar{
+	width: 250px;
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+.invisivel{
+	display:none;
+}
