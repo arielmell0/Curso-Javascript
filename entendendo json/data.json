@@ -1,0 +1,33 @@
+{
+    "msg": "Esse é um arquivo .json",
+
+    "pessoa": {
+        "nomePessoa": "aqui vai uma string com o nome da pessoa",
+        "idade": 19,
+
+        "redesSociais": [
+            {
+                "facebook": "facebook.com/arielmell0",
+                "instagram": "insta.com/arielmell0"
+            }
+        ],
+
+        "bandasFavoritas": [
+            {
+                "name": "judas priest",
+                "albums":[
+                    "metal is the law",
+                    "metal bucetation"
+                ]
+            },
+
+            {
+                "name": "mega death",
+                "albums": [
+                    "album do jailson",
+                    "summer eletrohits"
+                ]
+            }
+        ]
+    }
+}
