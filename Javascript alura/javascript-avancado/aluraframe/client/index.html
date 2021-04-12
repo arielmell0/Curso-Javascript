@@ -63,10 +63,22 @@
     <script src="js/app/models/Negociacao.js"></script>
 
     <script>
-        var n1 = new Negociacao(new Date(), 5, 1000)
+        /* for(var i = 0; i <= 100; i++){
+            console.log(i)
+        } */
 
-        n1.data.setDate(15)
-        console.log(n1.data)
+        //alert(i)
+        //exibe 101, por que em javascript as váriaveis não são 
+        //decladas com escopo de bloco como em php ou java
+
+        for(let i = 0; i <= 100; i++){
+            console.log(i)
+        }
+
+        alert(i)//retorna undefined no console, pois let declara
+        //a variavel em um bloco de escopo
+
+        
         
     </script>
     
