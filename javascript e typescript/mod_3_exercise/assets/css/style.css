@@ -18,12 +18,31 @@ body {
   line-height: 1.5em;
 }
 
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+h1, h2{
+  text-align: center;
+}
 .container {
   max-width: 640px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+}
+
+.container .tabela{
+  display: flex;
+  background-color;
+}
+
+.preencher-container{
+  flex-grow: 1;
+  flex-basis: auto;
 }
 
 form input, form label, form button {
